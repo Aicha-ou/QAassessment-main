@@ -15,3 +15,10 @@ The user fills in the mandatory fields
 
 The user click on submit button
     registrationForm.click on the submit button
+
+
+The error message should be displayed
+    registrationForm.display error message
+
+The success message should be displayed
+    registrationForm.Display success message

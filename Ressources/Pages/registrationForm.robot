@@ -24,3 +24,7 @@ Fill in the form
 
 click on the submit button
     Keywords.click web element      ${xpath.submit}
+
+
+display error message
+    Element Should Be Visible    //*[contains(text(), 'please fill in this field')]

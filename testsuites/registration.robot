@@ -16,7 +16,7 @@ namefield_empty
 
     When the user fills in the "name" field with an empty value
     And The user click on submit button
-    Then an error message should be displayed
+    Then The error message should be displayed
 
 
 Valid_Form
@@ -25,4 +25,4 @@ Valid_Form
 
     When The user fills in the mandatory fields
     And The user click on submit button
-    Then success message should be displayed
+    Then The success message should be displayed

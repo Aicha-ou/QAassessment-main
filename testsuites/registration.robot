@@ -15,14 +15,14 @@ namefield_empty
     Then the registration form screen should be displayed
 
     When the user fills in the "name" field with an empty value
-    And clicks on the submit button
+    And The user click on submit button
     Then an error message should be displayed
 
 
 Valid_Form
-    Given the user open the URL ""
+    Given the user open the URL ${URL}
     Then the registration form screen should be displayed
 
-    When the user Fill in the form
-    And click on the submit button
-    Then an error message should be displayed
+    When The user fills in the mandatory fields
+    And The user click on submit button
+    Then success message should be displayed
